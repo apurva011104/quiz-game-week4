@@ -5,13 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz Game</title>
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <h1>Quiz Game</h1>
-    
-  // Write your code from here 
-
-
+  <div id="start-page">
+    <div id="start-new-quiz">
+      <h1>Brain Teaser</h1>
+      <p>Test your general knowledge</p>
+      <div id="start-quiz-button"><button id="start-quiz">START</button></div>
+    </div>
+  </div>
+  <div id="questions-page" style="display: none;">
+    <div id="questions"></div>
+  </div>
+  <div id="score-page" style="display: none;">
+    <div id="display-score"></div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
